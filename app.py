@@ -355,7 +355,7 @@ def main():
             # Camera Source Selection
             camera_source = st.radio(
                 "Camera Source", 
-                ["Server Camera (PC)", "Device Camera (Mobile)"],
+                ["Device Camera (Mobile)", "Server Camera (PC)"],
                 help="Use 'Device Camera' for phones/tablets. Use 'Server Camera' for webcam attached to PC."
             )
             

@@ -1,0 +1,6 @@
+path: C:\Users\ahmed\Desktop\project1\dataset
+train: images/train
+val: images/train
+nc: 1
+names:
+  0: jeffrey epstein

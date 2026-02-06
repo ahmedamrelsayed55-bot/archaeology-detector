@@ -5,7 +5,7 @@ Generic configuration supporting both pretrained and custom models
 import os
 
 # Model Configuration
-MODEL_PATH = "models/custom_model.pt"  # Default to pretrained YOLOv8n (80 COCO classes)
+MODEL_PATH = "yolov8n.pt"  # Default to pretrained YOLOv8n (80 COCO classes)
 # To use custom trained model, change to: "models/custom_model.pt"
 
 CONFIDENCE_THRESHOLD = 0.25  # Minimum confidence for detections
